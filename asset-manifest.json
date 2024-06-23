@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/biboo-soundboard/static/css/main.bbe76006.css",
+    "main.js": "/biboo-soundboard/static/js/main.2eebb34d.js",
+    "index.html": "/biboo-soundboard/index.html",
+    "main.bbe76006.css.map": "/biboo-soundboard/static/css/main.bbe76006.css.map",
+    "main.2eebb34d.js.map": "/biboo-soundboard/static/js/main.2eebb34d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe76006.css",
+    "static/js/main.2eebb34d.js"
+  ]
+}
