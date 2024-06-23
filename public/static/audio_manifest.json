@@ -1,0 +1,74 @@
+{
+  "audio": [
+    {
+      "id": 0,
+      "name": "Get away from me, freak!",
+      "file": "get_away_from_me_freak.mp3"
+    },
+    {
+      "id": 1,
+      "name": "Hanya?",
+      "file": "hanya.mp3"
+    },
+    {
+      "id": 2,
+      "name": "I hope you die!",
+      "file": "i_hope_you_die.mp3"
+    },
+    {
+      "id": 3,
+      "name": "That's not fair!",
+      "file": "thats_not_fair.mp3"
+    },
+    {
+      "id": 4,
+      "name": "Wooow~",
+      "file": "wooow.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Oh, this mother-beeper!",
+      "file": "oh_this_mother_beeper.mp3"
+    },
+    {
+      "id": 6,
+      "name": "That's lewd!",
+      "file": "thats_lewd.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Dangit! Beep you!",
+      "file": "dangit_beep_you.mp3"
+    },
+    {
+      "id": 8,
+      "name": "WHAT?!?!",
+      "file": "what.mp3"
+    },
+    {
+      "id": 9,
+      "name": "Ugh, I'm in jail! Dangit!",
+      "file": "im_in_jail_dangit.mp3"
+    },
+    {
+      "id": 10,
+      "name": "*PANIC NOISES*",
+      "file": "panic.mp3"
+    },
+    {
+      "id": 11,
+      "name": "I looove you!",
+      "file": "i_love_you.mp3"
+    },
+    {
+      "id": 12,
+      "name": "Good night~",
+      "file": "good_night.mp3"
+    },
+    {
+      "id": 13,
+      "name": "I love casting spells!",
+      "file": "i_love_casting_spells.mp3"
+    }
+  ]
+}

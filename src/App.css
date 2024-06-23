@@ -1,38 +1,90 @@
-.App {
+html, body, #root {
+  height: 100%;
+}
+
+.app {
+  background-color: #1e2259;
+  width: 100%;
+  height: 100%;
+  color: white;
+  overflow: auto;
+}
+
+.content {
+  margin: 0 auto;
+  height: 100%;
+  width: 1024px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 0.5em 0;
+}
+
+.search-bar {
+  margin-bottom: 1.5em;
+}
+
+.search-input {
+  box-sizing: border-box;
+  display: block;
+  width: 60%;
+  font-size: 24px;
+  color: white;
+  background-color: #a97aeb;
+  border: 0;
+  border-radius: 1em;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  padding: 0.5em 1em;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.sound-wrapper {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sound-button {
+  box-sizing: border-box;
+  appearance: none;
+  font-size: 24px;
   color: white;
+  background-color: #a97aeb;
+  border: 0;
+  border-radius: 1em;
+  box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.5);
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: scale 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+.sound-button:hover {
+  scale: 1.05;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sound-button:focus {
+  /* outline: 2px solid white; */
+  filter: brightness(1.25);
+}
+
+.sound-button.has-clicks {
+  box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.5), inset 0 0 0 3px rgb(244, 153, 241);
+}
+
+.sound-button:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.sound-button > p {
+  margin: 0;
+}
+
+.sound-button > p:first-child {
+  margin-bottom: 5px;
 }
