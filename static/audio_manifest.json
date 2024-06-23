@@ -74,6 +74,51 @@
       "id": 14,
       "name": "A-Ahh! Bweh...",
       "file": "ahh_bweh.mp3"
+    },
+    {
+      "id": 15,
+      "name": "AHHHHH!!",
+      "file": "scream.mp3"
+    },
+    {
+      "id": 16,
+      "name": "Disgusting!",
+      "file": "disgusting.mp3"
+    },
+    {
+      "id": 17,
+      "name": "Say please~",
+      "file": "say_please.mp3"
+    },
+    {
+      "id": 18,
+      "name": "What if you're not real?",
+      "file": "what_if_youre_not_real.mp3"
+    },
+    {
+      "id": 19,
+      "name": "I don't wanna touch grass anymore! Help!",
+      "file": "i_dont_wanna_touch_grass_anymore_help.mp3"
+    },
+    {
+      "id": 20,
+      "name": "Meow~",
+      "file": "meow.mp3"
+    },
+    {
+      "id": 21,
+      "name": "Oohhh!",
+      "file": "ooh.mp3"
+    },
+    {
+      "id": 22,
+      "name": "Everybody, calm down!",
+      "file": "everybody_calm_down.mp3"
+    },
+    {
+      "id": 23,
+      "name": "Yay! Let's go, mother-beepers!",
+      "file": "lets_go_mother_beepers.mp3"
     }
   ]
 }
