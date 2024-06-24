@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/biboo-soundboard/static/css/main.3e38507a.css",
-    "main.js": "/biboo-soundboard/static/js/main.2eebb34d.js",
+    "main.css": "/biboo-soundboard/static/css/main.73770e61.css",
+    "main.js": "/biboo-soundboard/static/js/main.5dc7b60f.js",
     "index.html": "/biboo-soundboard/index.html",
-    "main.3e38507a.css.map": "/biboo-soundboard/static/css/main.3e38507a.css.map",
-    "main.2eebb34d.js.map": "/biboo-soundboard/static/js/main.2eebb34d.js.map"
+    "main.73770e61.css.map": "/biboo-soundboard/static/css/main.73770e61.css.map",
+    "main.5dc7b60f.js.map": "/biboo-soundboard/static/js/main.5dc7b60f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e38507a.css",
-    "static/js/main.2eebb34d.js"
+    "static/css/main.73770e61.css",
+    "static/js/main.5dc7b60f.js"
   ]
 }
