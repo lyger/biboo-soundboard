@@ -76,7 +76,7 @@
       "id": 12,
       "name": "Good night~",
       "file": "good_night.mp3",
-      "gameAudio": false
+      "gameAudio": true
     },
     {
       "id": 13,
@@ -281,6 +281,36 @@
       "name": "Huh... Interesting...",
       "file": "huh_interesting.mp3",
       "gameAudio": false
+    },
+    {
+      "id": 47,
+      "name": "*guitar solo*",
+      "file": "guitar_solo.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 48,
+      "name": "*chocobo noises*",
+      "file": "chocobo.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 49,
+      "name": "Get a job!",
+      "file": "get_a_job.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 50,
+      "name": "*sneezes*",
+      "file": "sneeze.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 51,
+      "name": "Am I real? No, I am a figment of your imagination. Obviously.",
+      "file": "am_i_real.mp3",
+      "gameAudio": true
     }
   ]
 }
