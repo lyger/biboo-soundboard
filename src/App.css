@@ -26,17 +26,24 @@ h1 {
   margin-bottom: 1.5em;
 }
 
-.search-input {
+.search-control {
+  position: relative;
   box-sizing: border-box;
   display: block;
   width: 60%;
+  margin: 0 auto;
+}
+
+.search-input {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
   font-size: 24px;
   color: white;
   background-color: #a97aeb;
   border: 0;
   border-radius: 1em;
   box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.3);
-  margin: 0 auto;
   padding: 0.5em 1em;
 }
 
@@ -45,13 +52,85 @@ h1 {
   opacity: 0.5;
 }
 
-.sound-wrapper {
+.search-reset {
+  position: absolute;
+  right: 0.75em;
+  top: 50%;
+  transform: translate(0,-50%);
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  font-size: 24px;
+  height: 1em;
+  width: 1em;
+  cursor: pointer;
+}
+
+.search-reset::before {
+  position: absolute;
+  display: block;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(45deg);
+  width: 4px;
+  height: 1em;
+  border-radius: 2px;
+  content: " ";
+}
+
+.search-reset::after {
+  position: absolute;
+  display: block;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+  width: 4px;
+  height: 1em;
+  border-radius: 2px;
+  content: " ";
+}
+
+.options-bar {
   text-align: center;
+  margin-bottom: 1em;
+}
+
+.option {
+  background-color: rgb(231, 113, 227);
+  box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  margin: 0 0.25em;
+  padding: 0.25em 0.75em;
+  border-radius: 1em;
+  opacity: 0.5;
+  user-select: none;
+}
+
+.option:has(input[type=checkbox]:checked) {
+  opacity: 1;
+}
+
+.option input[type=checkbox] {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.sound-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .sound-button {
+  position: relative;
   box-sizing: border-box;
   appearance: none;
+  overflow: hidden;
+  user-select: none;
   font-size: 24px;
   color: white;
   background-color: #a97aeb;
@@ -68,11 +147,6 @@ h1 {
   scale: 1.05;
 }
 
-.sound-button:focus {
-  /* outline: 2px solid white; */
-  filter: brightness(1.25);
-}
-
 .sound-button.has-clicks {
   box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.5), inset 0 0 0 3px rgb(244, 153, 241);
 }
@@ -85,6 +159,21 @@ h1 {
   margin: 0;
 }
 
-.sound-button > p:first-child {
+.sound-button > p:first-of-type {
   margin-bottom: 5px;
+  max-width: 12em;
+}
+
+.sound-button .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.2);
+  transition: width 0s;
+}
+
+.sound-button .progress.playing {
+  width: 100%;
 }

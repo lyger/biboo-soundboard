@@ -3,72 +3,314 @@
     {
       "id": 0,
       "name": "Get away from me, freak!",
-      "file": "get_away_from_me_freak.mp3"
+      "file": "get_away_from_me_freak.mp3",
+      "gameAudio": false
     },
     {
       "id": 1,
       "name": "Hanya?",
-      "file": "hanya.mp3"
+      "file": "hanya.mp3",
+      "gameAudio": false
     },
     {
       "id": 2,
       "name": "I hope you die!",
-      "file": "i_hope_you_die.mp3"
+      "file": "i_hope_you_die.mp3",
+      "gameAudio": true
     },
     {
       "id": 3,
       "name": "That's not fair!",
-      "file": "thats_not_fair.mp3"
+      "file": "thats_not_fair.mp3",
+      "gameAudio": true
     },
     {
       "id": 4,
       "name": "Wooow~",
-      "file": "wooow.mp3"
+      "file": "wooow.mp3",
+      "gameAudio": false
     },
     {
       "id": 5,
       "name": "Oh, this mother-beeper!",
-      "file": "oh_this_mother_beeper.mp3"
+      "file": "oh_this_mother_beeper.mp3",
+      "gameAudio": true
     },
     {
       "id": 6,
       "name": "That's lewd!",
-      "file": "thats_lewd.mp3"
+      "file": "thats_lewd.mp3",
+      "gameAudio": false
     },
     {
       "id": 7,
       "name": "Dangit! Beep you!",
-      "file": "dangit_beep_you.mp3"
+      "file": "dangit_beep_you.mp3",
+      "gameAudio": true
     },
     {
       "id": 8,
       "name": "WHAT?!?!",
-      "file": "what.mp3"
+      "file": "what.mp3",
+      "gameAudio": true
     },
     {
       "id": 9,
       "name": "Ugh, I'm in jail! Dangit!",
-      "file": "im_in_jail_dangit.mp3"
+      "file": "im_in_jail_dangit.mp3",
+      "gameAudio": true
     },
     {
       "id": 10,
       "name": "*PANIC NOISES*",
-      "file": "panic.mp3"
+      "file": "panic.mp3",
+      "gameAudio": true
     },
     {
       "id": 11,
       "name": "I looove you!",
-      "file": "i_love_you.mp3"
+      "file": "i_love_you.mp3",
+      "gameAudio": true
     },
     {
       "id": 12,
       "name": "Good night~",
-      "file": "good_night.mp3"
+      "file": "good_night.mp3",
+      "gameAudio": true
     },
     {
       "id": 13,
       "name": "I love casting spells!",
-      "file": "i_love_casting_spells.mp3"
+      "file": "i_love_casting_spells.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 14,
+      "name": "A-Ahh! Bweh...",
+      "file": "ahh_bweh.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 15,
+      "name": "AHHHHH!!",
+      "file": "scream.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 16,
+      "name": "Disgusting!",
+      "file": "disgusting.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 17,
+      "name": "Say please~",
+      "file": "say_please.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 18,
+      "name": "What if you're not real?",
+      "file": "what_if_youre_not_real.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 19,
+      "name": "I don't wanna touch grass anymore! Help!",
+      "file": "i_dont_wanna_touch_grass_anymore_help.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 20,
+      "name": "Meow~",
+      "file": "meow.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 21,
+      "name": "Oohhh!",
+      "file": "ooh.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 22,
+      "name": "Everybody, calm down!",
+      "file": "everybody_calm_down.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 23,
+      "name": "Yay! Let's go, mother-beepers!",
+      "file": "lets_go_mother_beepers.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 24,
+      "name": "Awaken, thy backseaters!",
+      "file": "awaken_thy_backseaters.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 25,
+      "name": "It's not a skill issue, it's a height issue! Thank you very much.",
+      "file": "its_not_a_skill_issue_its_a_height_issue.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 26,
+      "name": "Punch yourself in the face!",
+      "file": "punch_yourself_in_the_face.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 27,
+      "name": "Rawr!",
+      "file": "rawr.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 28,
+      "name": "*window wiper sounds* *sigh*",
+      "file": "window_wiper.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 29,
+      "name": "You halu. GSH. GWS.",
+      "file": "you_halu_get_some_help.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 30,
+      "name": "JDON my soul :D",
+      "file": "jdon_my_soul.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 31,
+      "name": "Oh, the horror! What a shame!",
+      "file": "oh_the_horror_what_a_shame.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 32,
+      "name": "Okay, pebble. I guess you are my little pogchamp. uwu",
+      "file": "my_little_pogchamp.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 33,
+      "name": "*ahem* Hi honey~",
+      "file": "ahem_hi_honey.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 34,
+      "name": "Oh, yeah? If I didn't have a nose, could I do this? *SNIFFA SNIFFA SNIFFA* Yeah, that's what I thought!",
+      "file": "if_i_didnt_have_a_nose.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 35,
+      "name": "BEEP-BEEP-BEEP...",
+      "file": "beep_beep_beep.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 36,
+      "name": "I'm sleepy. *yawn*",
+      "file": "im_sleepy.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 37,
+      "name": "PICK UP YOUR PHONE! DANGIT! BEEP YOU!",
+      "file": "pick_up_your_phone.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 38,
+      "name": "Headpat? Headpat? Please? BOOM!",
+      "file": "headpat_headpat_boom.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 39,
+      "name": "That's not possible, idiot!",
+      "file": "thats_not_possible_idiot.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 40,
+      "name": "This comment section is messed up.",
+      "file": "this_comment_section_is_messed_up.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 41,
+      "name": "Says who?",
+      "file": "says_who.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 42,
+      "name": "AAAAAA I'M SO EXCITED!",
+      "file": "im_so_excited.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 43,
+      "name": "*desk slam*",
+      "file": "deskslam.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 44,
+      "name": "*rock language*",
+      "file": "rock_language.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 45,
+      "name": "GET REKT!",
+      "file": "get_rekt.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 46,
+      "name": "Huh... Interesting...",
+      "file": "huh_interesting.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 47,
+      "name": "*guitar solo*",
+      "file": "guitar_solo.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 48,
+      "name": "*chocobo noises*",
+      "file": "chocobo.mp3",
+      "gameAudio": false
+    },
+    {
+      "id": 49,
+      "name": "Get a job!",
+      "file": "get_a_job.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 50,
+      "name": "*sneezes*",
+      "file": "sneeze.mp3",
+      "gameAudio": true
+    },
+    {
+      "id": 51,
+      "name": "Am I real? No, I am a figment of your imagination. Obviously.",
+      "file": "am_i_real.mp3",
+      "gameAudio": true
     }
   ]
 }
